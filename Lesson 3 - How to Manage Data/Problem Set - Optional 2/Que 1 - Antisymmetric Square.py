@@ -9,6 +9,8 @@ def antisymmetric(A):
     i = 0
     if A == []:
         return True
+    if n != len(A[0]):
+        return False
     else:
         while i < n:
             j = 0
